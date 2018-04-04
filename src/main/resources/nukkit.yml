@@ -1,0 +1,15 @@
+name: CheckPoint
+main: net.comorevi.nukkit.checkpoint.CheckPoint
+version: 1.0
+load: POSTWORLD
+author: popkechupki
+api: ["1.0.0"]
+description: Add check point
+
+commands:
+  cp:
+    description: move to checkpoint
+  cpadd:
+    description: add new checkpoint
+  cpdel:
+    description: delete new checkpoint
